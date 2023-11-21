@@ -122,10 +122,10 @@
         currentSlide  = slideImages -1;
         showSlide();
       }
-      showSlide();
-    </script>
-    <div id ="slide-container">
-      <img id="slide" src="slide1.jpg" alt="Slide 1" style="width:100%; max-width:800px;">
+      showSlide(); 
+      <div id ="slide-container">
+        <img id="slide" src="slide1.jpg" alt="Slide 1" style="width:100%; max-width:800px;">
+      </div>
       <div class="button-container">
         <button class="button" onclick="prevslide()">Previous</button>
         <button class="button" onclick="nextslide()">Next</button>
@@ -137,7 +137,6 @@
         <button class="button" onclick="showSlideNumber(4)">4</button>
         <button class="button" onclick="showSlideNumber(5)">5</button>
       </div>
-    </div>
     <style>
       #slide-container {
         text-align: center;
@@ -168,6 +167,8 @@
         margin-bottom: -50ox;
       }
     </style>
+    </script>
+   
   <h3 id="References">References</h3>
     <pre>
       <tr>
