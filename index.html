@@ -128,6 +128,9 @@
       var slideimages =["Slide1.JPG", "Slide2.JPG", "Slide3.JPG", "Slide4.JPG", "Slide5.JPG"];
       var currentslide = 0;
       function showslide(){
+        document.getElementById('slide').src = slideimages[currentslide];
+      }
+      function showslide(){
         currentslide = (currentslide + 1 ) % slideimages[currentslide];
       }
       function nextslide(){
